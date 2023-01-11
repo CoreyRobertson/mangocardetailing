@@ -103,6 +103,38 @@
     transition: 1s;
 }
 
+@media only screen and (min-device-width: 1100px) and (max-device-width: 1200px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .brand-name {
+        text-decoration: none;
+        color: var(--color-white);
+        font-family: var(--font-heading);
+        font-size: 22px;
+        margin-left: 1rem;
+    }
+
+    .navigation-menu ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        font-size: 16px;
+        margin-right: 1rem;
+    }
+
+    .btn {
+        font-size: 16px;
+        border-radius: 10px;
+        border: solid 2px var(--color-white);
+        color: var(--color-white);
+        background-color: var(--color-orange);
+        padding: 0.5rem;
+        cursor: pointer;
+
+
+    }
+
+}
 
 
 @media screen and (max-width: 850px) {
