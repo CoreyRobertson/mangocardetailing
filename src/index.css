@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 :root {
-  --font-heading: 'Ubuntu', sans-serif;
+  --font-heading: 'Roboto', sans-serif;
   --font-text: 'Poppins', sans-serif;
 
 
