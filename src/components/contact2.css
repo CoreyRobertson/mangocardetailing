@@ -1,0 +1,222 @@
+.contact2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 140%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M493.76 669.54C608.37 660.01 684.68 428.47 884.95 427.46 1085.22 426.45 1080.55 497.46 1276.15 497.46 1471.74 497.46 1567.99 427.74 1667.34 427.46' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M164.13 663.97C343.39 660.53 483.24 432.17 840.61 425.86 1197.97 419.55 1338.95 204.75 1517.08 201.86' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M367.74 615.21C496.58 600.72 572.16 318.53 791.72 316.53 1011.27 314.53 1003.7 386.53 1215.69 386.53 1427.68 386.53 1532.24 316.76 1639.67 316.53' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M213.02 581.78C344.29 572.49 435.7 319.05 668.56 317.98 901.43 316.91 896.34 387.98 1124.11 387.98 1351.88 387.98 1464.43 318.18 1579.65 317.98' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M849.13 657.41C952.61 653.95 1018.58 502.51 1229.33 493.16 1440.07 483.81 1502.11 297.67 1609.52 291.56' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    margin: 5rem 0;
+}
+
+.heading h1 {
+    font-family: var(--font-heading);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.contact2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 10rem;
+}
+
+.contact2-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact2-links a {
+    color: var(--color-white);
+    font-size: 32px;
+    font-family: var(--font-text);
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.contact2-links a:hover {
+    color: var(--color-darkblue);
+    transition: 1s;
+}
+
+
+
+.contact2-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: var(--font-text);
+}
+
+.contact2-contact ul {
+    list-style: none;
+    font-family: var(--font-text);
+}
+
+.name {
+    font-size: 32px;
+    color: var(--color-white);
+}
+
+.phone_i {
+    font-size: 32px
+}
+
+.phone_i {
+    margin-right: 0.5rem;
+    color: var(--color-white);
+}
+
+.contact2-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact2-media a {
+    font-size: 50px;
+    color: var(--color-black);
+
+}
+
+.icon_media {
+    transition: 1s;
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+.icon_media:hover {
+    color: var(--color-black);
+    transition: 1s;
+}
+
+@media screen and (max-width: 850px) {
+    .contact2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-orange);
+    }
+
+
+
+    .heading h1 {
+        font-family: var(--font-heading);
+        color: var(--color-white);
+        text-align: center;
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .contact2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+
+    .contact2-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-bottom: 5rem;
+
+        width: 100%;
+    }
+
+    .contact2-links a {
+        color: var(--color-white);
+        font-size: 22px;
+        font-family: var(--font-text);
+        cursor: pointer;
+        transition: 1s;
+        width: 100%;
+
+    }
+
+
+
+
+    .contact2-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: var(--font-text);
+
+    }
+
+    .contact2-contact ul {
+        list-style: none;
+        font-family: var(--font-text);
+    }
+
+    .name {
+        font-size: 22px;
+        color: var(--color-white);
+    }
+
+    .phone_i {
+        font-size: 22px
+    }
+
+    .phone_i {
+        margin-right: 0.5rem;
+        color: var(--color-white);
+    }
+
+    .contact2-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0 0 0;
+    }
+
+    .contact2-media a {
+        font-size: 80px;
+        color: var(--color-black);
+
+    }
+
+    .icon_media {
+        transition: 1s;
+        cursor: pointer;
+        color: var(--color-white);
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .heading h1 {
+        font-family: var(--font-heading);
+        color: var(--color-white);
+        text-align: center;
+        font-size: 40px;
+        line-height: 60px;
+        margin: 0 2rem;
+    }
+
+    .contact2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 140%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M493.76 669.54C608.37 660.01 684.68 428.47 884.95 427.46 1085.22 426.45 1080.55 497.46 1276.15 497.46 1471.74 497.46 1567.99 427.74 1667.34 427.46' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M164.13 663.97C343.39 660.53 483.24 432.17 840.61 425.86 1197.97 419.55 1338.95 204.75 1517.08 201.86' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M367.74 615.21C496.58 600.72 572.16 318.53 791.72 316.53 1011.27 314.53 1003.7 386.53 1215.69 386.53 1427.68 386.53 1532.24 316.76 1639.67 316.53' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M213.02 581.78C344.29 572.49 435.7 319.05 668.56 317.98 901.43 316.91 896.34 387.98 1124.11 387.98 1351.88 387.98 1464.43 318.18 1579.65 317.98' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M849.13 657.41C952.61 653.95 1018.58 502.51 1229.33 493.16 1440.07 483.81 1502.11 297.67 1609.52 291.56' stroke='rgba(0%2c 0%2c 0%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -400px;
+    }
+}
