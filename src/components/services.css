@@ -37,6 +37,7 @@
     align-items: center;
     background-color: var(--color-white);
     margin: 2rem;
+    border: solid 2px var(--color-lightorange);
 }
 
 .services_card-heading_container {
@@ -62,7 +63,7 @@
 .services_card p {
     font-family: var(--font-text);
     width: 75%;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .services_card button {
@@ -151,7 +152,7 @@
     .services_card p {
         font-family: var(--font-text);
         width: 100%;
-        font-size: 22px;
+        font-size: 16px;
         padding: 1rem 0;
     }
 
